@@ -1,3 +1,4 @@
 # gameBook
+1/2025
 
-detektivní příběh , který se odehrává při večerní sešlosti známých ze základky
+Sestra te poprosila at ji pohlidas kocku, pomuzes ji?

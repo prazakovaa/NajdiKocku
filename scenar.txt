@@ -1,0 +1,30 @@
+typecek je doma, najde obrazek nejaky mistnosti v jeho domu tak se tam jde juknour a proste se pohybuje podle tech obrazku??
+
+0. sejny obrazek jako na 1 ale zasedly, 'nazev' + nejaka sipka?
+    'tva sestra odjizdi na dovolenou, nabidl ses ze ji pohlidas kocku'
+
+1A. 'vsechno je pripravene u dveri, jen kocour mozna utekl do loznice, tak si ho najdi prosim, moc dekuju!! mejte se tu hezky!'
+    'vydat se do domu, at to mas rychle za sebou' -> 2A
+    'pozdravit jejiho pritele, co ceka v aute' -> 2B
+
+2A. 'vesel jsi do vchodu, vse je u dveri, presne jak rikala x, az na tu kocku' 
+    'zkouset kocoura privolat' -> 3A
+    'vydat se ho hledat, jak rekla' -> 3B
+
+2B. 'sel si pozdravit x pritele, prevypravel cely plan jejich vyletu a ukazal nekolik fotek z destinaci, kam se snad dostanou, 
+vzdy jste si rozumneli, pak ale sestra namitla ze by meli jet, at maji dost casu na letiati, rozloucili jste se a oni odjeli.'
+    'jit pro veci do domu' -> 2A
+
+3A. 'volani jmena nepomahalo, zkusil jsi proto parkrat zazvonit s jeho miskou na jidlo, ozvalo se par ran z vrchniho 
+patra a najednou se k tobe kocour lisa! ale aspon ze prisel, to znamena ze muzes domu!
+    'pobalit veci a vyrazit k sobe' -> KONEC-1
+    'co takhle se jit podivat, jestli nenechala neco draheho nekde?' -> KONEC-2
+
+
+KONEC-1:
+'dorazil si spokojene domu!'
+'ted uz te jen ceka tyden s kocourem, staci ho dvakrat denne naucit, ale prozatim tvuj ukol konci'
+
+KONEC-2:
+'moderni dum, maji kamery'
+'vola ti sestra, ze ji aplikace zahlasila pohyb v kuchyni, "je vse v pohode?" pta se a ty radsi mizis domu, jen s kocourem'
