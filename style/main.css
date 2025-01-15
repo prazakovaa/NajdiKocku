@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --text: rgb(94, 80, 65);
+    --lighter: rgb(116, 99, 81);
+    --light: rgb(225, 200, 173);
+    --bgd: #fff7d8;
+}
+
+html {
+    font-family: 'Poppins', 'Gill Sans', Calibri, sans-serif
+}
+
+h1, h2 {
+    font-family: 'Plafair Display';
+}
+
+body {
+    height: 100vh;
+    background-color: var(--bgd);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
