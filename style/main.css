@@ -19,6 +19,7 @@ h1, h2 {
 body {
     height: 100vh;
     background-color: var(--bgd);
+    color: var(--text);
     margin: 0px;
     display: flex;
     flex-direction: column;

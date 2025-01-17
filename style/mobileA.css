@@ -1,0 +1,96 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+    height: 80vh;
+    gap: 3em;
+}
+
+.main-header{
+    height: auto;
+    width: 80vw;
+    max-width: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.game-name {
+    color: var(--text);
+    font-size: 2.2em;
+    margin: 0;
+}
+
+.header__info{
+    text-align: center;
+}
+
+.main-header .footer{
+    color: var(--lighter);
+    opacity: 80%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    max-width: 2500px;
+    gap: 1em;
+    border: 1px solid var(--light);
+    padding-bottom: 1em;
+}
+
+.page-h1 {
+    color: var(--lighter)
+}
+
+.btn {
+    background-color: var(--light);
+    border: 1px solid var(--lighter);
+    width: 50vw;
+    max-width: 500px;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.btn :hover {
+    background-color: var(--lighter);
+    color: var(--light);
+    border-radius: 2em;
+}
+
+.btn--choice  {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.btn--small{
+    border: 1px solid var(--lighter);
+    background-color: var(--bgd);
+    width: auto;
+}
+
+.main-footer {
+    display: flex;
+    padding: 2em 4em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7em;
+    opacity: 80%;
+}
+
+a {
+    display: block;
+    color: var(--text);
+    padding: 1em;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
