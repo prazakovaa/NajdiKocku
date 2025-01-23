@@ -14,7 +14,9 @@ h1 { font-family: 'Plafair Display', 'Times new Roman', serif; }
 
 body {
     height: 100vh;
-    background-color: var(--bgd);
+    background-image: url(../images/bgd.jpg);
+    background-repeat: repeat;
+    background-position: center top;
     color: var(--text);
     margin: 0px;
 
