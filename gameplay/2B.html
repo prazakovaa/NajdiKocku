@@ -5,38 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/mobile.css">
-    <title>Cica</title>
+    <link
+      rel="stylesheet"
+      href="../style/desktop.css"
+      media="screen and (min-width: 960px)"
+    >
+    <title>NajdiKočku</title>
 </head>
 <body>
 
-    <div class="content">
+    <div class="page">
 
-    <header class="main-header">
-        <h1>Šel jsi za Markem</h1>
-        <div class="header__info">
-            <p>Převyprávěl ti celý plán jejich dovolené, ukázal pár fotek vysněných destinací, po chvíli sestra namítla, že už by měli jet, rozloučili jste se.</p>
-        </div>
+    <header class="page__header">
+        <a href="../index.html" 
+        class="header__link">
+        <img class="header__img img-responsive"
+        src="../images/header.png" 
+        alt="Kočka ležící na knížce">
+        </a>
+        <h1 class="header__name">NajdiKočku</h1>
     </header>
     
-    <main class="page">
-        <div class="page-h1">
-            <h2>Jdeš pro kočku?</h2>
+    <main class="page__content">
+        <div class="content__header">
+            <img class="img-responsive"
+            src="../images/chata.jpg" 
+            alt="Chata">
         </div>
-        <div class="btn btn--choice">
-           <a href="2A.html">Jdu pro kočku.</a> 
+        
+        <div class="content__box">
+            <div class="content__info">
+                <p>Šel jsi pozdravit tvého , Marka. Převyprávěl ti celý plán jejich dovolené, ukázal pár fotek vysněných destinací, po chvíli sestra namítla, že už by měli jet. Jdeš pro kočku?</p>
+            </div>
+
+            <menu class="content__menu">
+                <li class="btn btn--choice">
+                    <a class="link" href="2A.html">Jdu pro kočku.</a> 
+                </li>
+            </menu>
         </div>
+
     </main>
 
-    </div>
-
-    <footer class="main-footer">
-        <div class="btn btn--small">
-            <a href="../index.html">Začít znovu</a> 
-         </div>
-         <div class="footer__info">
-            <p>Pražáková 2025</p>
-        </div>
+    <footer class="page__footer">
+        <a class="link link--footer"
+        href="https://www.instagram.com/nprazaak/">
+            Pražáková Nella
+        </a>
     </footer>
+
+    </div>
 
 </body>
 </html>

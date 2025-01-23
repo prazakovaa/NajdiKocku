@@ -3,44 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/logo.png" />
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/mobile.css">
-    <title>NajdiKocku</title>
+    <link
+      rel="stylesheet"
+      href="../style/desktop.css"
+      media="screen and (min-width: 960px)"
+    >
+    <title>NajdiKočku</title>
 </head>
 <body>
 
     <div class="page">
 
     <header class="page__header">
-        <a href="../index.html">
-        <img class="img-responsive"
+        <a href="../index.html" 
+        class="header__link">
+        <img class="header__img img-responsive"
         src="../images/header.png" 
         alt="Kočka ležící na knížce">
         </a>
+        <h1 class="header__name">NajdiKočku</h1>
     </header>
     
-    <main class="content">
-        <div class="content--header">
+    <main class="page__content">
+        <div class="content__header">
             <img class="img-responsive"
             src="../images/chata.jpg" 
             alt="Chata">
         </div>
-        <div class="content--info">
-            <p>Tvá sestra odjíždí na dovolenou, nabídl jses, že jí pohlídáš kočku:
-            "Všechno je připravené u dveři, jen kocour možná utekl do ložnice"</p>
-        </div>
-            <div class="btn btn--choice">
-            <a href="2A.html">Vydat se do domu.</a> 
+        
+        <div class="content__box">
+        
+            <div class="content__info">
+                <p>Tvá sestra odjíždí na dovolenou, nabídl jses, že jí pohlídáš kočku:
+                "Všechno je připravené u dveři, jen kocour možná utekl do ložnice"</p>
             </div>
-            <div class="btn btn--choice">
-                <a href="2B.html">Jít pozdravit jejího přítele, Marka, co sedí v autě.</a> 
-            
+
+            <menu class="content__menu">
+                <li class="btn btn--choice">
+                    <a class="link" href="2A.html">Vydat se do domu.</a> 
+                </li>
+                <li class="btn btn--choice">
+                    <a class="link" href="2B.html">Jít pozdravit jejího přítele, co sedí v autě.</a> 
+                </li>
+            </menu>
         </div>
+
     </main>
 
     <footer class="page__footer">
-        <a href="https://www.instagram.com/nprazaak/">
+        <a class="link link--footer"
+        href="https://www.instagram.com/nprazaak/">
             Pražáková Nella
         </a>
     </footer>

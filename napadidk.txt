@@ -1,3 +1,0 @@
-footer jako idwentifikator ktrerej bude mit mensi text a opacity
- 
- od 960px responzivni texty, jednotky ve vw

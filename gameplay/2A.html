@@ -5,41 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/mobile.css">
-    <title>Cica</title>
+    <link
+      rel="stylesheet"
+      href="../style/desktop.css"
+      media="screen and (min-width: 960px)"
+    >
+    <title>NajdiKočku</title>
 </head>
 <body>
 
-    <div class="content">
+    <div class="page">
 
-    <header class="main-header">
-        <h1>Vydal jses do domu</h1>
-        <div class="header__info">
-            <p>Vše je připravené u dveří, až na tu kočku, přesně jak říkala tvá sestra.</p>
-        </div>
+    <header class="page__header">
+        <a href="../index.html" 
+        class="header__link">
+        <img class="header__img img-responsive"
+        src="../images/header.png" 
+        alt="Kočka ležící na knížce">
+        </a>
+        <h1 class="header__name">NajdiKočku</h1>
     </header>
     
-    <main class="page">
-        <div class="page-h1">
-            <h2></h2>
+    <main class="page__content">
+        <div class="content__header">
+            <img class="img-responsive"
+            src="../images/chata.jpg" 
+            alt="Chata">
         </div>
-        <div class="btn btn--choice">
-           <a href="3A.html">Zkoušet kocoura přivolat.</a> 
+        
+        <div class="content__box">
+        
+            <div class="content__info">
+                <p>Rozloučil jses a vyrazil směrem k domu. Vše je připravené u dveří, až na tu kočku, přesně jak říkala tvá sestra.</p>
+            </div>
+
+            <menu class="content__menu">
+                <li class="btn btn--choice">
+                    <a class="link" href="3A.html">Zkoušet kocoura přivolat.</a> 
+                </li>
+                <li class="btn btn--choice">
+                    <a class="link" href="3B.html">Jít se po něm podívat.</a> 
+                </li>
+            </menu>
         </div>
-        <div class="btn btn--choice">
-            <a href="3B.html">Jít se po něm podívat.</a> 
-         </div>
+
     </main>
 
-    </div>
-
-    <footer class="main-footer">
-        <div class="btn btn--small">
-            <a href="../index.html">Začít znovu</a> 
-         </div>
-         <div class="footer__info">
-            <p>Pražáková 2025</p>
-        </div>
+    <footer class="page__footer">
+        <a class="link link--footer"
+        href="https://www.instagram.com/nprazaak/">
+            Pražáková Nella
+        </a>
     </footer>
+
+    </div>
 
 </body>
 </html>

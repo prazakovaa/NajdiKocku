@@ -5,22 +5,19 @@
     --text: rgb(94, 80, 65);
     --lighter: rgb(116, 99, 81);
     --light: rgb(225, 200, 173);
-    --bgd: #fff7d8;
+    --bgd: rgb(255, 247, 216);
 }
 
-html {
-    font-family: 'Poppins', 'Gill Sans', Calibri, sans-serif
-}
+html { font-family: 'Poppins', 'Arial', sans-serif; }
 
-h1, h2 {
-    font-family: 'Plafair Display';
-}
+h1 { font-family: 'Plafair Display', 'Times new Roman', serif; }
 
 body {
     height: 100vh;
     background-color: var(--bgd);
     color: var(--text);
     margin: 0px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
